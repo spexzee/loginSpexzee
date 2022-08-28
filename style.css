@@ -1,0 +1,71 @@
+html{
+    padding: 0;
+    margin: 0;
+    background-image: url("/pc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.first{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: aqua;
+    text-transform: capitalize;
+
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(23, 20, 20, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0 25px 35px rgba(18, 17, 17, 0.6);
+    border-radius: 200px 3px;  
+}
+label{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+.name{
+    padding:28px;
+}
+.pass{
+    padding:28px;
+}
+.submit{
+    
+    background-color: aqua;
+    border-color: aqua;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px 2px;
+}
+.submit:hover{
+     background: #03e9f4;
+  color: rgb(12, 8, 8);
+  /* border-radius: 8px; */
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+
+}
+.text{
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    font-size: 20px;
+    border-radius: 20px 2px;
+    background-color:#ebced2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+}
+.text:focus{
+    outline: 3px dashed aqua;
+}
+
