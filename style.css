@@ -1,8 +1,8 @@
 html{
     padding: 0;
     margin: 0;
-    background-image: url("/pc.jpg");
-    background-color: #ebced2;
+     background-color:#ebced2;
+    background-image:url(pc.jpg);
     background-repeat: no-repeat;
     background-size: 160rem;
     font-size: 62.5%;
