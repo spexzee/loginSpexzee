@@ -1,15 +1,15 @@
 html{
     padding: 0;
     margin: 0;
-    background-color:#ebced2;
-    background-image:url(pc.jpg);
+    background-image: url("/pc.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 160rem;
+    font-size: 62.5%;
 }
 .first{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 3.5rem;
     color: aqua;
     text-transform: capitalize;
 
@@ -19,54 +19,54 @@ html{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
-    padding: 40px;
+    width: 40rem;
+    padding: 4rem;
     transform: translate(-50%, -50%);
     background: rgba(23, 20, 20, 0.6);
     box-sizing: border-box;
-    box-shadow: 0 25px 35px rgba(18, 17, 17, 0.6);
-    border-radius: 200px 3px;  
+    box-shadow: 0 2.5rem 3.5rem rgba(18, 17, 17, 0.6);
+    border-radius: 20rem .3rem;  
 }
 label{
     color: aqua;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     
 }
 .name{
-    padding:28px;
+    padding:2.8rem;
 }
 .pass{
-    padding:28px;
+    padding:2.8rem;
 }
 .submit{
     
     background-color: aqua;
     border-color: aqua;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    font-size:20px;
+    box-shadow: 0 1.5rem 2.5rem rgba(0,0,0,.6);
+    font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
-    border-radius: 20px 2px;
+    border-radius: 2rem .2rem;
 }
 .submit:hover{
      background: #03e9f4;
   color: rgb(12, 8, 8);
   /* border-radius: 8px; */
-  box-shadow: 0 0 5px #03e9f4,
-              0 0 25px #03e9f4,
-              0 0 50px #03e9f4,
-              0 0 100px #03e9f4;
+  box-shadow: 0 0 .5rem #03e9f4,
+              0 0 2.5rem #03e9f4,
+              0 0 5rem #03e9f4,
+              0 0 10rem #03e9f4;
 
 }
 .text{
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    font-size: 20px;
-    border-radius: 20px 2px;
+    box-shadow: 0 1.5rem 2.5rem rgba(0,0,0,.6);
+    font-size: 2rem;
+    border-radius: 2rem .2rem;
     background-color:#ebced2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 1px solid gray;
+    border: .1px solid gray;
 }
 .text:focus{
-    outline: 3px dashed aqua;
+    outline: .3rem dashed aqua;
 }
 
