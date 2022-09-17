@@ -68,6 +68,28 @@ label{
     border: .1px solid gray;
 }
 .text:focus{
-    outline: .3rem dashed aqua;
+    outline:aqua;
+}
+@media(min-width:1600px) and (max-width:3000px){
+    html{
+        background-size: 101%;
+    }
+}
+
+@media(max-width:400px){
+    html{
+        background-size: 290%;
+    }
+}
+@media(max-width:400px){
+    .login{
+       width: 34rem;
+    }
+}
+@media(max-width:300px){
+    .login{
+       width: 31rem;
+       background-size: 140rem;
+    }
 }
 
